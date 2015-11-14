@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客服帮助</title>
+	<link href="css/help.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/footer.css">
+	<meta name="viewport" id="viewport" content="width=device-width, maximum-scale=1.0,  user-scalable=no"/>
+	<script>!function(win){function setUnitA(){var docWidth=docEl.clientWidth,extraStyle="}";!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)&&docWidth>1024&&(docWidth=640,extraStyle=";max-width:"+docWidth+"px;margin-right:auto!important;margin-left:auto!important;}"),win.rem=docWidth/40,/ZTE U930_TD/.test(navigator.userAgent)&&(win.rem=1.13*win.rem),fontEl.innerHTML="html{font-size:"+win.rem+"px!important;}body{font-size:"+12*(docWidth/480)+"px"+extraStyle}var dpr,scale,docEl=document.documentElement,metaEl=document.querySelector('meta[name="viewport"]'),fontEl=document.createElement("style");if(dpr=win.devicePixelRatio||1,scale=1/dpr,!metaEl)return void console.warn('请设置默认viewport');var docWidth=docEl.clientWidth;if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){375===docWidth&&metaEl.setAttribute("content","user-scalable=no");var versionMatches=navigator.userAgent.match(/iPhone OS (\d+)\_\d+/i);versionMatches&&parseInt(versionMatches[1])<8?metaEl.setAttribute("content","width="+dpr*docWidth+",initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no"):metaEl.setAttribute("content","initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no")}else{var matches=navigator.userAgent.match(/Android[\S\s]+AppleWebkit\/?(\d{3})/i);!matches||matches&&matches[1]>534?metaEl.setAttribute("content","target-densitydpi=device-dpi,width=device-width,user-scalable=no,initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale):dpr=1}docEl.firstElementChild.appendChild(fontEl),docEl.setAttribute("data-dpr",dpr),win.dpr=dpr,win.addEventListener("resize",function(){setUnitA()},!1),win.addEventListener("pageshow",function(e){e.persisted&&setUnitA()},!1),setUnitA()}(window);</script>
+	<script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/cityId.js"></script>
+</head>
+<body>
+	<div id="head">
+		<a href="javascript:void(0)"><img src="img/return.png" alt="return" class="return"/></a>
+		<p>客服帮助</p>
+		<div class="address">
+			<img src="img/location.png" alt=""/>
+			<a href="place.html">泉州</a>
+		</div>
+	</div>
+	<div id="wrap">
+		<img src="img/main_logo.png" alt="logo" class="logo"/>
+		<div class="mainer">
+			<div class="line top"></div>
+			<div class="main">
+				<div class="main_first" onclick="location.href='proberm.html'">
+					<p>常见问题：</p>
+					<a href="javascript:void(0)">新手必读</a>
+					<img src="img/more.png" alt="more" class="more"/>
+				</div>
+				<div class="line first"></div>
+				<div class="main_second" onclick="location.href='protect.html'">
+					<p>售后保障：</p>
+					<a href="javascript:void(0)">全国联保</a>
+					<img src="img/more.png" alt="more" class="more"/>
+				</div>
+				<div class="line second"></div>
+				<div class="main_third" onclick="location.href='present.html'">
+					<p>礼品赠送：</p>
+					<a href="javascript:void(0)">立即领取</a>
+					<img src="img/more.png" alt="more" class="more"/>
+				</div>
+				<div class="line third"></div>
+				<div class="main_fourth">
+					<p>优优客服：</p>
+					<p>周一至周六9：00-20：00</p>
+					<div class="main_fourth_right">
+						<div class="vertical"></div>
+						<a href="tel:0595-86868738" class="phone"><img src="img/phone.png" alt="phone" class="phone"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="line bottom"></div>
+		</div>
+		<img src="img/QRcode.png" alt="QRcode" class="qrcode_first"/>
+		<div class="qrcode_main">
+			<p class="qrcode_second">微信搜索公众号:</p>
+			<p class="qrcode_third">优优买车</p>
+			<a class="qrcode_fourth">关注汽车最新资讯，领取免费大礼包！</a>
+		</div>
+	</div>
+	<footer>
+		<div class="foot_left">
+		 <div></div>
+		<img src="img/foot_logo.jpg" alt="">
+		<p>uumaiche.com</p>
+
+		</div>
+		<div class="foot_right">
+			<p class="foot_phone">0595-86868738</p>
+			<p class="foot_time">工作时间 09：00~20：00</p>
+			<p id="foot_last">Copyright@厦门泓跃合记汽车贸易有限公司闽ICP备15004843号-1</p>
+			<p onclick="location.href='help.html'"><b>客服帮助</b><b class="foot_b" onclick="location.href='proberm.html'">常见问题</b></p>
+		</div>
+	</footer>
+</body>
+<script>
+	$(".address>a").html($.cookie("cityName"));
+	$("#head>a>img").click(function(){
+		location.href='index.html';
+	});
+</script>
+</html>

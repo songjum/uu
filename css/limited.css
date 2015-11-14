@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.clear_fix{
+    clear: both;
+}
+body{
+    background-color: #ffffff;
+}
+div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.product{
+    float: left;
+    width: 36.67rem;
+    margin-left: 1.67rem;
+    padding-top: 2.59rem;
+    border-top: 1px solid #cfcfcf;
+}
+div.product:first-child{
+    border-top: none;
+}
+div.product .price{
+    float: left;
+    width: 4rem;
+    position: relative;
+}
+div.product .car_pic{
+    float: left;
+    width: 10.27rem;
+    height: 8.31rem;
+    margin-left: -4.5rem;
+}
+div.product .bc_b{
+    color: #ffffff;
+    background-color: #f96e21;
+    padding: 0.13rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    float: left;
+    font-size: 1.11rem;
+    margin-top: 1.04rem;
+}
+div.product .big_b{
+    color: #f03d3d;
+    font-size: 1.85rem;
+}
+div.product .p_needfloat,
+div.product .p_last,
+div.product .p_subtitle{
+    color: #999999;
+    font-size: 1.19rem;
+    margin-top: 1.04rem;
+}
+div.product .h3{
+    color: #000;
+    font-size: 1.48rem;
+    margin-top: -0.67rem;
+}
+div.product .p_needfloat{
+    margin-top: 1.40rem;
+    margin-left: 15.33rem;
+    font-size: 1.04rem;
+}
+div.product .p_last{
+    margin-top: 0.33rem;
+    font-size: 1.48rem;
+    color: #000;
+    padding-bottom: 1.22rem;
+}
+div.product input{
+    background-image: url('../img/iwant.png');
+    background-size: 100%;
+    border: none;
+    width: 8.22rem;
+    height: 2.22rem;
+    border-radius: 0.2rem;
+    float: right;
+    margin-top: -3.8rem;
+    margin-right: 1.33rem;
+    font-size: 1.63rem;
+    padding: 0.33rem;
+}
+div.load_more{
+    height: 3.78rem;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+}
+div.load_more img{
+    width: 1.33rem;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 16.48rem;
+}
+div.load_more a{
+    line-height: 3.7rem;
+    margin-left: 0.5rem;
+    font-size: 1.33rem;
+    color: #999999;
+}

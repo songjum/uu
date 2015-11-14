@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>礼品赠送</title>
+    <link rel="stylesheet" href="css/header_return.css"/>
+    <link rel="stylesheet" href="css/present.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" id="viewport" content="width=device-width, maximum-scale=1.0,  user-scalable=0"/>
+    <script>!function(win){function setUnitA(){var docWidth=docEl.clientWidth,extraStyle="}";!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)&&docWidth>1024&&(docWidth=640,extraStyle=";max-width:"+docWidth+"px;margin-right:auto!important;margin-left:auto!important;}"),win.rem=docWidth/40,/ZTE U930_TD/.test(navigator.userAgent)&&(win.rem=1.13*win.rem),fontEl.innerHTML="html{font-size:"+win.rem+"px!important;}body{font-size:"+12*(docWidth/480)+"px"+extraStyle}var dpr,scale,docEl=document.documentElement,metaEl=document.querySelector('meta[name="viewport"]'),fontEl=document.createElement("style");if(dpr=win.devicePixelRatio||1,scale=1/dpr,!metaEl)return void console.warn('请设置默认viewport');var docWidth=docEl.clientWidth;if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){375===docWidth&&metaEl.setAttribute("content","user-scalable=no");var versionMatches=navigator.userAgent.match(/iPhone OS (\d+)\_\d+/i);versionMatches&&parseInt(versionMatches[1])<8?metaEl.setAttribute("content","width="+dpr*docWidth+",initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no"):metaEl.setAttribute("content","initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no")}else{var matches=navigator.userAgent.match(/Android[\S\s]+AppleWebkit\/?(\d{3})/i);!matches||matches&&matches[1]>534?metaEl.setAttribute("content","target-densitydpi=device-dpi,width=device-width,user-scalable=no,initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale):dpr=1}docEl.firstElementChild.appendChild(fontEl),docEl.setAttribute("data-dpr",dpr),win.dpr=dpr,win.addEventListener("resize",function(){setUnitA()},!1),win.addEventListener("pageshow",function(e){e.persisted&&setUnitA()},!1),setUnitA()}(window);</script>
+    <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/cityId.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body>
+<img class="top_img" src="img/present_back.jpg">
+<div class="content_wrap">
+    <div class="rules">
+        <img src="img/present_head.png">
+        <div class="rules_text">
+       <p class="rules_title"><img src="img/star.png" alt="">活动介绍：
+            <p><img src="img/red_1.png" alt="">填写姓名、电话，点击 “免费领取” 提交； </p>
+            <p> <img src="img/red_2.png" alt="">关注【优优买车】，点击菜单栏【礼品赠送】分享到朋友圈即可免费领取礼品；</p>
+       </p>
+        <p class="rules_title"> <img src="img/star.png" alt="">活动奖励</p>
+        <p>礼品内容：①钻彩全车贴膜②第一现场 行车记录仪③达沃丝丝圈脚垫④车用应急电源⑤威力特·除甲醛香膏；总价值¥3000。</p>
+         <p class="rules_title"> <img src="img/star.png" alt="">使用规则：</p>
+         <p>在平台报名参加团购，成交后即可兑现大礼包！</p>
+          <p class="rules_title rules_last"> <img src="img/star.png" alt="">温馨提示：</p>
+        <p>我们鼓励也建议大家事先到4S店了解行情，再来参加我们的团购与团购价做对比，我们欢迎比价，我们有信心能帮大家争取到更优惠的价格。</p>
+        </div>
+    </div>
+    <form action="" method="post">
+        <div class="input_box"   >
+            <img src="img/user.png" alt=""><b>姓名：</b>
+            <input type="text" placeholder="请填写你的名字" name="user">
+        </div>
+         <div class="input_box"   >
+            <img src="img/phone.png" alt=""><b>手机：</b>
+            <input type="text" placeholder="手机严格保密，仅限活动通知" name="tel">
+        </div>
+        <input type="button" value="免费领取" id="submit">
+    </form>
+</div>
+<div class="wechat">
+    <img src="img/qr_code.jpg" alt="微信二维码"/>
+    <p>微信搜索公众号：<b>优优买车</b></p>
+    <a href="">关注汽车最新资讯，领取免费大礼包！</a>
+</div>
+<footer>
+    <div class="foot_left">
+     <div></div>
+    <img src="img/foot_logo.jpg" alt="">
+    <p>uumaiche.com</p>
+
+    </div>
+    <div class="foot_right">
+        <p class="foot_phone">0595-86868738</p>
+        <p class="foot_time">工作时间 09：00~20：00</p>
+        <p id="foot_last">Copyright@厦门泓跃合记汽车贸易有限公司闽ICP备15004843号-1</p>
+        <p onclick="location.href='help.html'"><b>客服帮助</b><b class="foot_b" onclick="location.href='proberm.html'">常见问题</b></p>
+    </div>    
+</footer>
+</body>
+<script>
+
+    $(".top_img").click(function(){
+        location.href='index.html';
+    })
+</script>
+</html>

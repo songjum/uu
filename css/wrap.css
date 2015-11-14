@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div,header{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.clear_fix{
+    clear: both;
+}
+header {
+    height: 4.81rem;
+    background-color: #fd461e;
+}
+div.nav .link img,
+div.nav .nav_margin,
+div.article .logo,
+.nav .link a,
+div.product{
+    display: block;
+    margin: 0 auto;
+}
+header h3{
+    text-align: center;
+    line-height: 4.81rem;
+    font-size: 2.07rem;
+    position: relative;
+    right: 0.5rem;
+    color: #ffffff;
+}
+header .address{
+    margin-top: -4rem;
+    position: relative;
+}
+header .address,
+div.more_right{
+    float: right;
+    margin-right: 1.67rem;
+}
+header .address img{
+    width: 1.26rem;
+    float: left;
+    margin-top: 0.8rem;
+    margin-right: 0.3rem;
+}
+header .address a{
+    line-height: 3.4rem;
+    font-size: 1.63rem;
+}
+div.top_banner{
+    overflow-x: hidden;
+}
+div.top_banner .doc{
+    position: relative;
+}
+div.banner img{
+    width: 40rem;
+    height: 16.67rem;
+    float: left;
+}
+div.banner .second_banner{
+    margin-left: 40rem;
+    margin-top: -16.67rem;
+}
+div.banner .third_banner{
+    margin-left: 80rem;
+    margin-top: -16.67rem;
+}
+div.top_banner .doc{
+    position: absolute;
+    left: 33rem;
+    top: 20rem;
+    width: 5rem;
+}
+div.top_banner .doc div{
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-left: 1rem;
+    border-radius: 15px;
+    float: left;
+    background-color: #cccccc;
+}
+div.top_banner .doc .bg{
+    background-color: #ff4400;
+}
+div.top_banner .doc .color_doc{
+    position: relative;
+    left: 2.05rem;
+    width: 0.78rem;
+    height: 0.78rem;
+}
+.nav .link{
+    float: left;
+    margin-left: 4.7rem;
+    margin-top: 1rem;
+}
+.nav .last_link{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.nav .left_div{
+    margin-left: 6.96rem;
+}
+.nav .link img{
+    width: 5.04rem;
+    margin-top: 0;
+}
+.nav .link a{
+    color: #666666;
+    font-size: 1.41rem;
+    text-align: center;
+    margin-top: 0.92rem;
+}
+div.main_head{
+    background-color: #f0f0f0;
+    height: 3.7rem;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+div.main_head p{
+    margin-left: 1.56rem;
+    color: #666666;
+    line-height: 3.7rem;
+    font-size: 1.67rem;
+}
+div.main_head div.more_right{
+    margin-top: -2.5rem;
+}
+div.main_head div.more_right a{
+    color: #999999;
+    font-size: 1.41rem;
+    position:relative;
+    bottom: 0.1rem;
+}
+div.main_head div.more_right img{
+    width: 0.8rem;
+    position: relative;
+    top: 0.05rem;
+}
+div.product{
+    float: left;
+    width: 36.67rem;
+    margin-left: 1.67rem;
+    padding-top: 2.59rem;
+    border-top: 1px solid #cfcfcf;
+}
+div.article>.product:first-child{
+    border-top: none;
+}
+div.product .price{
+    float: left;
+    width: 4rem;
+    position: relative;
+}
+div.product .car_pic{
+    float: left;
+    width: 10.27rem;
+    height: 8.31rem;
+    margin-left: -4.5rem;
+}
+div.product .bc_b{
+    color: #ffffff;
+    background-color: #f96e21;
+    padding: 0.13rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    float: left;
+    font-size: 1.11rem;
+    margin-top: 1.04rem;
+}
+div.product .big_b{
+    color: #f03d3d;
+    font-size: 1.85rem;
+}
+div.product .p_needfloat,
+div.product .p_last,
+div.product .p_subtitle{
+    color: #999999;
+    font-size: 1.19rem;
+    margin-top: 1.04rem;
+}
+div.product .h3{
+    color: #000;
+    font-size: 1.48rem;
+    margin-top: -0.67rem;
+}
+div.product .p_needfloat{
+    margin-top: 1.3rem;
+    margin-left: 15.33rem;
+    font-size: 1.04rem;
+}
+div.product .p_last{
+    margin-top: 0.33rem;
+    font-size: 1.48rem;
+    color: #000;
+    padding-bottom: 1.22rem;
+}
+div.product input{
+    background-image: url('../img/iwant.png');
+    background-size: 100%;
+    border: none;
+    width: 8.22rem;
+    height: 2.22rem;
+    border-radius: 0.2rem;
+    float: right;
+    margin-top: -3.8rem;
+    margin-right: 1.33rem;
+    font-size: 1.63rem;
+    padding: 0.33rem;
+}
+div.article .product:last-child{
+    border-bottom: none;
+}
+div.article .logo{
+    margin-left: 1.67rem;
+    margin-bottom: 1.67rem;
+    margin-top: 1.67rem;
+}
+div.article .car_logo img{
+    width:5.26rem;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 1rem 1rem 0.5rem 1rem;
+    float: left;
+}
+div.article .car_logo_bottom img{
+    border-right: 1px solid #cccccc;
+    border-bottom: none;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+div.article .logo .right_logo img{
+    border-right: none;
+}
+.buying_group{
+    padding-top: 1.48rem;
+    margin-left: 1.67rem;
+    width: 18rem;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    float: left;
+}
+.buying_group:first-child,
+.buying_group:nth-child(2){
+    margin-top: 1.48rem;
+    padding-top: 0;
+    border-top: none;
+}
+.buying_group .group{
+    float: left;
+    background-color: #f00d28;
+    margin-left: 0.5rem;
+}
+.buying_group .group p{
+    color: #ffffff;
+    padding: 0.3rem;
+    margin-bottom: 0;
+}
+.buying_group img{
+    width: 10.3rem;
+    margin-left: 0;
+}
+.buying_group p{
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 1.48rem;
+    margin-bottom: 0.5rem;
+    color: #666666;
+}
+.buying_group b{
+    color: #f00d28;
+}
+.buying_group:last-child{
+    margin-bottom: 1.5rem;
+}
+.group_right{
+    margin-left: 0;
+    border-right: none;
+}
+.group_bottom{
+    border-bottom: none;
+}
+div.rule{
+    background-color: #f0f0f0;
+    height: 2rem;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+div.bottom_banner{
+    overflow-x: hidden;
+}
+div.bottom_banner img{
+    width: 40rem;
+    height: 12.5rem;
+    float: left;
+}
+div.bottom_banner .img_b{
+    margin-left: 40rem;
+    margin-top: -12.5rem;
+}
+div.bottom_banner .img_c{
+    margin-left: 81rem;
+    margin-top: -12.5rem;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>品牌团购</title>
+    <!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"/>-->
+    <link rel="stylesheet" href="css/header_return.css"/>
+    <link rel="stylesheet" href="css/buying_group.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" id="viewport" content="width=device-width,maximum-scale=1.0,  user-scalable=0"/>
+    <script>!function(win){function setUnitA(){var docWidth=docEl.clientWidth,extraStyle="}";!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)&&docWidth>1024&&(docWidth=640,extraStyle=";max-width:"+docWidth+"px;margin-right:auto!important;margin-left:auto!important;}"),win.rem=docWidth/40,/ZTE U930_TD/.test(navigator.userAgent)&&(win.rem=1.13*win.rem),fontEl.innerHTML="html{font-size:"+win.rem+"px!important;}body{font-size:"+12*(docWidth/320)+"px"+extraStyle}var dpr,scale,docEl=document.documentElement,metaEl=document.querySelector('meta[name="viewport"]'),fontEl=document.createElement("style");if(dpr=win.devicePixelRatio||1,scale=1/dpr,!metaEl)return void console.warn('请设置默认viewport');var docWidth=docEl.clientWidth;if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){375===docWidth&&metaEl.setAttribute("content","user-scalable=no");var versionMatches=navigator.userAgent.match(/iPhone OS (\d+)\_\d+/i);versionMatches&&parseInt(versionMatches[1])<8?metaEl.setAttribute("content","width="+dpr*docWidth+",initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no"):metaEl.setAttribute("content","initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no")}else{var matches=navigator.userAgent.match(/Android[\S\s]+AppleWebkit\/?(\d{3})/i);!matches||matches&&matches[1]>534?metaEl.setAttribute("content","target-densitydpi=device-dpi,width=device-width,user-scalable=no,initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale):dpr=1}docEl.firstElementChild.appendChild(fontEl),docEl.setAttribute("data-dpr",dpr),win.dpr=dpr,win.addEventListener("resize",function(){setUnitA()},!1),win.addEventListener("pageshow",function(e){e.persisted&&setUnitA()},!1),setUnitA()}(window);</script>
+    <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/cityId.js"></script>
+    <script type="text/javascript" src="js/buying.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+        <style>
+            .buying_group{
+                width: 40rem;
+                overflow-x: hidden;
+            }
+        </style>
+    <script>
+        var carId = getUrlParam("carId"); //取得url参数
+        var id = getUrlParam("id");
+        var bandId = getUrlParam("bandId");
+    </script>
+</head>
+<body>
+<div class="choose_carband">
+    <div class="head">
+        <p>请选择参团品牌</p>
+        <img src="img/close.png" alt="关闭" class="close"/>
+    </div>
+    <div class="wrap_left">
+        <div class="main">
+            <div class="hot_band">
+                <p>热门品牌</p>
+                <div class="line"></div>
+                <div class="article">
+                    <a href="javascript:void(0)">一汽大众</a>
+                    <a href="javascript:void(0)">上海大众</a>
+                    <a href="javascript:void(0)">长安福特</a>
+                    <a href="javascript:void(0)">通用别克</a>
+                    <a href="javascript:void(0)">东风标致</a>
+                    <a href="javascript:void(0)">北京现代</a>
+                    <div class="clear_fix"></div>
+                </div>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">B</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">C</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">D</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">F</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">G</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">H</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">J</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">K</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">L</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">M</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">N</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">O</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">Q</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">S</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">T</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">W</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">Y</p>
+            </div>
+            <div class="car_band">
+                <p class="pinyin">Z</p>
+            </div>
+        </div>
+    </div>
+    <div class="wrap_right">
+
+    </div>
+</div>
+<header>
+    <a href="javascript:void(0)"><img src="img/return.png" alt="返回" class="return"/></a>
+    <h3>优优买车</h3>
+    <div class="address">
+        <img src="img/icon_address.png" alt=""/>
+        <a href="place.html">泉州</a>
+    </div>
+</header>
+<div class="product_banner">
+    <p class="label">团购</p>
+    <div>
+        <p></p>
+    </div>
+</div>
+<div class="reward">
+    <p class="help">帮你<b>再</b>省<b>3000+</b>元</p>
+    <p class="application">已有<b>27</b>人报名</p>
+    <p class="b">注：本期通过《优优买车》成交客户，送3000元大礼包！</p>
+</div>
+<div class="clear_fix"></div>
+<div class="about_us">
+    <img src="img/icon_car.png" alt="正品新车"/>
+    <p>正品新车</p>
+    <img src="img/icon_all.png" alt="全国联保"/>
+    <p>全国联保</p>
+    <img src="img/icon_price.png" alt="保证最低价"/>
+    <p>保证最低价</p>
+    <img src="img/icon_free.png" alt="全程免费"/>
+    <p>全程免费</p>
+</div>
+<div class="buying_group">
+    <div class="gr_buy_introduce gr_buy">
+        <p class="color">团购说明</p>
+        <img src="img/underline.jpg"/>
+    </div>
+    <div class="gr_buy_flow gr_buy">
+        <p>团购流程</p>
+    </div>
+    <div class="clear_fix"></div>
+    <div class="slide" id="slide">
+        <div class="introduce">
+            <p class="p_a"><b>团购时间 </b>: 2015.10.01</p>
+            <p class="p_a"><b>团购地点 </b>: 泉州正规4S店<b class="b_notice">（报名后通知）</b></p>
+            <p class="p_a p_a_last"><b>团购价格 </b>: 活动现场公布，保证泉州最低价</p>
+            <p class="p_b">报名前，请先了解点击下方“<b>常见问题</b>”了解我们</p>
+            <p class="p_b p_b_last"><b>《优优买车》</b>，让您买得更放心！</p>
+            <p class="p_c"><b>温馨提示</b>：我们鼓励也建议大家事先到4S店了解行情，再</p>
+            <p class="p_c">来参加我们的团购与团购价做对比，我们欢迎比价，我们</p>
+            <p class="p_c">有信心能帮大家争取到更优惠的价格</p>
+        </div>
+        <div class="flow">
+            <div class="f_t">
+                <img src="img/01.png" alt=""/>
+                <p class="h">免费报名</p>
+                <p>选择车型 >填写信息 >报名预定</p>
+            </div>
+            <div class="s_f">
+                <img src="img/02.png" alt=""/>
+                <p class="h">参加团购</p>
+                <p> 电话通知时间地点>参加团购>预交订金</p>
+            </div>
+            <div class="f_t">
+                <img src="img/03.png" alt=""/>
+                <p class="h">验车付款</p>
+                <p>到车确认 >验车支付尾款 >牌证服务</p>
+            </div>
+            <div class="s_f">
+                <img src="img/04.png" alt=""/>
+                <p class="h">交车服务</p>
+                <p>到店交车 >材料交付 >庆贺仪式</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear_fix"></div>
+<div class="rule"></div>
+<div class="application">
+    <div class="band">
+        <img src="img/brand.png" alt="品牌"/>
+        <p>品牌：</p>
+        <p class="choose">请选择汽车品牌</p>
+        <img src="img/more_right.png" class="more"/>
+    </div>
+    <div class="car">
+        <img src="img/car.png" alt="品牌"/>
+        <p>车型：</p>
+        <select>
+            <option value="">请选择车型</option>
+        </select>
+        <img src="img/more_right.png" class="more"/>
+    </div>
+    <form action="" method="post">
+        <div class="name">
+            <img src="img/user.png" alt="品牌"/>
+            <p>姓名：</p>
+            <input type="text" placeholder="请填写你的姓名" name="name"/>
+        </div>
+        <div class="telephone">
+            <img src="img/phone.png" alt="品牌"/>
+            <p>电话：</p>
+            <input type="text" placeholder="手机严格保密，仅限活动通知" name="tel"/>
+        </div>
+        <input type="button" value="免费报名" class="submit"/>
+    </form>
+    <p class="promise">我们承诺：<b>不是最低价，双倍赔偿！</b></p>
+</div>
+<div class="rule"></div>
+<div class="line_link">
+    <div class="problem link"  onclick="location.href='proberm.html'">
+        <p>常见问题：</p>
+        <div>
+            <a href="javascript:void(0)">新手必读</a>
+            <img src="img/more_right.png" alt=""/>
+        </div>
+    </div>
+    <div class="after_sale link"  onclick="location.href='protect.html'">
+        <p>售后保障：</p>
+        <div>
+            <a href="javascript:void(0)">全国联保</a>
+            <img src="img/more_right.png" alt=""/>
+        </div>
+    </div>
+    <div class="gift link"  onclick="location.href='present.html'">
+        <p>礼品赠送：</p>
+        <div>
+            <a href="javascript:void(0)">立即领取</a>
+            <img src="img/more_right.png" alt=""/>
+        </div>
+    </div>
+    <div class="link">
+        <p>优优客服：</p>
+        <div>
+            <p class="a">周一至周日8：00-20：00</p>
+            <img src="img/more_right.png" alt=""/>
+        </div>
+    </div>
+    <div class="button">
+        <a href="tel:0595-86868738"><input type="button" class="telephone" value="免费电话"/></a>
+        <input type="button" class="wechat" value="微信咨询" onclick="location.href='help.html'"/>
+    </div>
+</div>
+<div class="rule" style="height: 1.67rem;"></div>
+<img src="img/bottom_banner.jpg" alt="" class="bottom_banner"/>
+<div class="rule" style="height: 1.63rem;position: relative;bottom: 0.32rem;"></div>
+<footer>
+    <div class="foot_left">
+     <div></div>
+    <img src="img/foot_logo.jpg" alt="">
+    <p>uumaiche.com</p>
+    </div>
+    <div class="foot_right">
+        <p class="foot_phone">0595-86868738</p>
+        <p class="foot_time">工作时间 09：00~20：00</p>
+        <p id="foot_last">Copyright@厦门泓跃合记汽车贸易有限公司闽ICP备15004843号-1</p>
+        <p><b>客服帮助</b><b class="foot_b">常见问题</b></p>
+    </div>    
+</footer>
+</body>
+<script>
+    $(".address>a").html($.cookie("cityName"));
+    $("header>a>img").click(function(){
+        location.href='index.html';
+    });
+</script>
+</html>

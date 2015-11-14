@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clear_fix{
+    clear: both;
+}
+.top_img{
+    width: 40rem;
+}
+div.content_wrap{
+    float: left;
+    margin-top: -0.5rem;
+    width:40rem;
+    padding-top:2.3rem;
+    background-color: #f7f5f5;
+    border-bottom: 1px solid #ccc;
+}
+.rules{
+    width:31.96rem;
+    height: 48.92rem;
+    margin:0 auto;
+    background-color: #fc6869;
+}
+.rules>img{
+    width:31.96rem;
+    position: relative;
+    z-index: 10;
+    margin-top:-2.3rem;
+}
+.rules_text{
+    width:26rem;
+    margin:1.11rem auto;
+}   
+.rules_text p>img{
+    padding-right:0.7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.rules_text>p{
+    line-height: 2rem;
+    font-size:1.41rem;
+    color: #f6f9fa;
+    margin-bottom: 1.4em;
+}
+.rules_text .rules_title{
+    color: #ffe615;
+    margin:0;
+}
+div.rules_text p.rules_last{
+   float: left;
+}
+div.input_box{
+    width:32.22rem;
+    height: 4.26rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 2rem;
+}
+.input_box>img{
+    margin:1.26rem 1.03rem ;
+    display: inline-block;
+    width: 1.30rem;
+    height: 1.52rem;
+    float: left;
+}
+.input_box>b{
+    font-size: 1.63rem;
+    float: left;
+    line-height: 4.26rem;
+}
+.input_box>input{
+    width: 23.4rem;
+    height: 4rem;
+    border:none;
+    font-size: 1.26rem;
+}
+#submit{
+    width: 13.85rem;
+    height: 2.96rem;
+    border-radius: 0.5rem;
+    font-size: 1.26rem;
+    background-color: #fc6869;
+    border:none;
+    display: block;
+    margin:auto;
+    margin-top: 2.22rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+div.wechat{
+    margin-bottom: 2rem;
+}
+div.wechat p{
+    text-align: center;
+    color: #666666;
+    font-size: 1.2rem;
+}
+div.wechat img{
+    width: 22.5rem;
+      display: block;
+    margin: 1.33rem auto;
+}
+div.wechat b{
+    color: #fd461e;
+    font-size: 1.4rem;
+}
+div.wechat a{
+    display: block;
+    margin: 1.63rem auto;
+    text-align: center;
+    margin-bottom: 0;
+    width: 26.67rem;
+    height: 4.27rem;
+    font-size: 1.25rem;
+    color: #fcfafa;
+    background-color: #fd461e;
+    line-height: 4.27rem;
+    border-radius: 0.67rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

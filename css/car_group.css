@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clear_fix{
+    clear: both;
+}
+div.product_banner{
+    background-image: url("../img/product_banner.jpg");
+    -webkit-background-size: 40rem 18.74rem;
+    background-size: 40rem 18.74rem;
+    width: 40rem;
+    height: 18.74rem;
+}
+.product_banner .label{
+    float: left;
+    margin-left: 1.56rem;
+    margin-top: 0.85rem;
+    padding: 0.37rem;
+    background-color: #f03d3d;
+    color: #fffbfb;
+    font-size: 1.4rem;
+}
+.product_banner div{
+    width: 40rem;
+    background-color: rgba(5,5,5,0.5);
+    height: 4.74rem;
+    margin-top: 11rem;
+    float: left;
+}
+.product_banner div p{
+    color: #fefdfd;
+    font-size: 1.85rem;
+    text-align: center;
+    line-height: 4.74rem;
+}
+div.reward p{
+    float: left;
+    margin-top: 2.37rem;
+    margin-left: 1.59rem;
+    font-size: 1.48rem;
+}
+div.reward b{
+    color: #f03d3d;
+    font-weight: 500;
+    font-size: 1.89rem;
+}
+.reward .application{
+    float: right;
+    margin-right: 6.04rem;
+}
+.reward .b{
+    font-size: 1.41rem;
+    color: #f03d3d;
+    margin-bottom: 2rem;
+}
+.reward .help{
+    font-size: 1.63rem;
+}
+.reward .help b{
+    font-size: 2.22rem;
+}
+/*reservation*/
+.reward .bgc{
+    text-align: center;
+    line-height: 2rem;
+    display: block;
+    background-color: #f03d3d;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.reward .first_bgc{
+    margin-left: 3rem;
+}
+.reward .second_bgc{
+    margin-left: 4rem;
+}
+.reward .bgc b{
+    color: #ffffff;
+}
+.reward .notice{
+    display: block;
+    width: 35rem;
+    color: #666666;
+}
+.reward .sp_b{
+    font-size: 1.48rem;
+    color: #666666;
+    text-decoration: line-through;
+}
+.about_us{
+    padding-left: 1rem;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.about_us p{
+    display: inline-block;
+    font-size: 1.33rem;
+    position: relative;
+    bottom: 0.7rem;
+}
+.about_us img{
+    width: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.3rem;
+}
+div.buying_group{
+    float: left;
+}
+div.buying_group .gr_buy{
+    width: 19.9rem;
+    float: left;
+    height: 3.57rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #cccccc;
+}
+div.buying_group .gr_buy_introduce p{
+    border-right: 1px solid #cccccc;
+}
+div.gr_buy_flow p,
+div.buying_group .gr_buy_introduce p{
+    font-size: 1.63rem;
+    text-align: center;
+    line-height:3rem;
+}
+div.buying_group .gr_buy p.color{
+    color: #fd461e;
+}
+div.buying_group .gr_buy_introduce{
+}
+div.buying_group .gr_buy_introduce img{
+    width: 8.11rem;
+    margin-left: 5.73rem;
+    float: left;
+    margin-top: 0.3rem;
+}
+.introduce{
+    height: 28.52rem;
+    width: 40rem;
+    background-color: #fafafa;
+}
+.special>div>p{
+    line-height: 2.6rem;
+    font-size: 1.41rem;
+    padding-top: 2.22rem;
+}
+.special>div{
+    width:35.18rem;
+    margin: 0 auto;
+}
+.introduce{
+    height: 28.67rem;
+    width: 40rem;
+    background-color: #fafafa;
+}
+.introduce .p_a_last{
+    margin-bottom: 1.48rem;
+}
+.introduce .p_a{
+    margin-left: 1.89rem;
+    padding-top: 2.19rem;
+    font-size: 1.78rem;
+}
+.introduce b{
+    color: #fd461e;
+}
+.introduce .b_notice{
+    color: #999999;
+}
+.introduce .p_b{
+    margin-top: 1.11rem;
+    margin-left: 1.89rem;
+    font-size: 1.41rem;
+}
+.introduce .p_b b{
+    color: #666666;
+}
+.introduce .p_b_last{
+    margin-bottom: 0.52rem;
+}
+.introduce .p_c{
+    margin-top: 1.11rem;
+    color: #eaa309;
+    font-size: 1.33rem;
+    margin-left: 1.89rem;
+}
+.introduce .p_c b{
+    color: #f03d3d;
+}
+.flow{
+    height: 28.52rem;
+    background-color: #fafafa;
+    float: left;
+    width: 40rem;
+    margin-left: 40rem;
+    margin-top: -28.52rem;
+}
+.flow div{
+    height: 4.81rem;
+    width: 30.74rem;
+    background-color: #fc795c;
+    margin-left: 4.74rem;
+    margin-top: 2rem;
+}
+.flow div img{
+    height: 4.81rem;
+}
+.flow div p{
+    font-size: 1.41rem;
+    color: #fcf9f9;
+    float: left;
+    line-height: 2.5rem;
+}
+.flow div p.h{
+    font-size: 1.63rem;
+}
+.flow .f_t p{
+    margin-left: 1.74rem;
+}
+.flow .f_t img{
+    float: left;
+}
+.flow .s_f p{
+    margin-left: 2rem;
+}
+.flow .s_f img{
+    float: right;
+}
+div.application{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+div.application div{
+    margin-left: 2.07rem;
+    border-bottom: 1px solid #cccccc;
+    width: 36.15rem;
+    height: 4.63rem;
+}
+div.application div img{
+    float: left;
+    margin-top: 1.5rem;
+    width: 1.59rem;
+}
+div.application div p{
+    float: left;
+    font-size: 1.63rem;
+}
+div.application div a{
+    font-size: 1.41rem;
+    padding-right: 18rem;
+    color: #999999;
+}
+div.application div p,
+div.application div a{
+    line-height: 4.63rem;
+    margin-left: 0.2rem;
+}
+div.application div img.more{
+    float: right;
+    width: 0.96rem;
+}
+div.application div input{
+    border: none;
+    height: 4.4rem;
+    font-size: 1.41rem;
+    width: 28rem;
+}
+div.application form .submit{
+    height: 3.7rem;
+    width: 13.15rem;
+    border: none;
+    background-color: #fd461e;
+    color: #ffffff;
+    font-size: 1.56rem;
+    display: block;
+    margin: 1.41rem auto;
+    border-radius: 0.5rem;
+}
+div.application .promise{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+div.application .promise b{
+    color: #f03d3d;
+    font-weight: 600;
+}
+div.rule{
+    height: 2.67rem;
+    background-color: #eeeeee;
+}
+div.rule_b{
+    height: 1.67rem;
+    background-color: #eeeeee;
+}
+div.line_link{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link{
+    margin-left: 1.87rem;
+    height: 5rem;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link p{
+    font-size: 1.67rem;
+    float: left;
+    line-height: 5rem;
+}
+div.line_link .link .a{
+    margin-left: 0;
+    color: #666666;
+}
+div.line_link .link a{
+    color: #666666;
+    font-size: 1.67rem;
+    line-height: 5rem;
+    padding-right: 18.67rem;
+}
+div.line_link .link img{
+    width: 0.87rem;
+    float: right;
+    margin-top: 1.77rem;
+    margin-right: 1.67rem;
+    z-index: -1;
+}
+div.button{
+    margin-left: 3.93rem;
+}
+div.button input{
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.56rem;
+    margin-left: 1rem;
+    padding-left: 3rem;
+    margin-top: 1.57rem;
+    margin-bottom: 1.57rem;
+    padding-right: 5.7rem;
+    color: #666666;
+}
+div.button .telephone{
+    border-right: 1px solid #999999;
+    background-image: url("../img/free_phone.png");
+    background-repeat: no-repeat;
+    background-size: 1.89rem 1.56rem;
+}
+div.button .wechat{
+    margin-left: 3rem;
+    padding-right: 4.7rem;
+    background-image: url("../img/wechat.png");
+    background-repeat: no-repeat;
+    background-size: 1.89rem 1.56rem;
+}
+img.bottom_banner{
+    width: 40rem;
+}

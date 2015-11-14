@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+
+}
+body{
+    background-color: #fafafa;
+}
+div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.logo img,
+div.wechat img{
+    display: block;
+    margin: 1.33rem auto;
+}
+div.logo img{
+    width: 20rem;
+}
+div.notice .checkbox{
+    width: 8rem;
+    margin: 1rem auto;
+}
+div.notice p{
+    margin: 1rem auto;
+    display: block;
+    width: 25rem;
+    color: #fd461e;
+    text-align: center;
+}
+div.notice .checkbox img{
+    width: 1.33rem;
+}
+div.notice b,
+div.wechat b{
+    color: #fd461e;
+    font-size: 1.4rem;
+}
+div.wechat p{
+    text-align: center;
+    color: #666666;
+}
+div.notice p{
+    font-size: 1rem;
+}
+div.wechat p{
+    font-size: 1.2rem;
+}
+div.wechat b{
+    font-weight: 500;
+    font-size: 1.33rem;
+}
+div.wechat a{
+    display: block;
+    margin: 1.63rem auto;
+    text-align: center;
+    margin-bottom: 0;
+    width: 26.67rem;
+    height: 4.27rem;
+    font-size: 1.25rem;
+    color: #fcfafa;
+    background-color: #fd461e;
+    line-height: 4.27rem;
+    border-radius: 0.67rem;
+}
+div.wechat img{
+    width: 22.5rem;
+}
+div.line_link{
+    margin-top: 2.57rem;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link,
+div.line_link .person_service{
+    margin-left: 1.87rem;
+    height: 5rem;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link p,
+div.line_link .person_service p{
+    font-size: 1.67rem;
+    float: left;
+    line-height: 5rem;
+}
+div.line_link .link a{
+    color: #666666;
+    font-size: 1.67rem;
+    line-height: 5rem;
+    padding-right: 16.67rem;
+}
+div.line_link .link img,
+div.line_link .person_service img{
+    width: 0.87rem;
+    float: right;
+    margin-top: 1.77rem;
+    margin-right: 1.67rem;
+    z-index: -1;
+}
+div.line_link .person_service{
+    border-bottom: 1px solid #cccccc;
+    margin-left: 0;
+}
+div.line_link .person_service p{
+    margin-left: 2rem;
+}
+div.line_link .person_service a{
+    color: #666666;
+    font-size: 1.67rem;
+    line-height: 5rem;
+    padding-top: 0.67rem;
+    padding-bottom: 0.67rem;
+    padding-right: 1.33rem;
+    border-right: 1px solid #cccccc;
+}
+div.line_link .person_service img{
+    width: 2rem;
+    margin-top: 1.33rem;
+    margin-right: 3.33rem;
+}
+div.line_link .navi div{
+    margin: 4.7rem auto;
+    width: 26.59rem;
+}
+div.line_link .navi div a{
+    color: #fcf7f7;
+    font-size: 1.41rem;
+    background-color: #fd461e;
+    padding: 1.19rem 1.85rem 1.19rem 1.85rem;
+    border-radius: 0.7rem;
+}
+div.line_link .navi div .more_car{
+    margin-left: 6.11rem;
+}

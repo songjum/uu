@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择地区</title>
+    <link rel="stylesheet" href="css/place.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/header_return.css"/>
+    <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/place.js"></script>
+    <meta name="viewport" id="viewport" content="width=device-width, maximum-scale=1.0,user-scalable=no"/>
+    <script>!function(win){function setUnitA(){var docWidth=docEl.clientWidth,extraStyle="}";!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)&&docWidth>1024&&(docWidth=640,extraStyle=";max-width:"+docWidth+"px;margin-right:auto!important;margin-left:auto!important;}"),win.rem=docWidth/40,/ZTE U930_TD/.test(navigator.userAgent)&&(win.rem=1.13*win.rem),fontEl.innerHTML="html{font-size:"+win.rem+"px!important;}body{font-size:"+12*(docWidth/480)+"px"+extraStyle}var dpr,scale,docEl=document.documentElement,metaEl=document.querySelector('meta[name="viewport"]'),fontEl=document.createElement("style"); if(dpr=win.devicePixelRatio||1,scale=1/dpr,!metaEl)return void console.warn('请设置默认viewport');var docWidth=docEl.clientWidth;if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){375===docWidth&&metaEl.setAttribute("content","user-scalable=no");var versionMatches=navigator.userAgent.match(/iPhone OS (\d+)\_\d+/i);versionMatches&&parseInt(versionMatches[1])<8?metaEl.setAttribute("content","width="+dpr*docWidth+",initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no"):metaEl.setAttribute("content","initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale+",user-scalable=no")}else{var matches=navigator.userAgent.match(/Android[\S\s]+AppleWebkit\/?(\d{3})/i);!matches||matches&&matches[1]>534?metaEl.setAttribute("content","target-densitydpi=device-dpi,width=device-width,user-scalable=no,initial-scale="+scale+",maximum-scale="+scale+", minimum-scale="+scale):dpr=1}docEl.firstElementChild.appendChild(fontEl),docEl.setAttribute("data-dpr",dpr),win.dpr=dpr,win.addEventListener("resize",function(){setUnitA()},!1),win.addEventListener("pageshow",function(e){e.persisted&&setUnitA()},!1),setUnitA()}(window);</script>
+</head>
+<body>
+    <header>
+        <img src="img/return.png" alt="返回" class="return">
+        <h3 style="text-align: center">当前城市－<span>泉州</span></h3>
+    </header> 
+        <div class="wrap_left">
+            <div class="search">
+                <input type="text" name="search" value="" placeholder="城市／行政区／拼音  ">
+            </div>
+            <div class="head">
+                <p>定位城市  </p>
+            </div>
+            <div class="corect location_city">
+                <p>泉州</p>
+            </div>
+            <div class="clear_fix"></div>
+            <div id="nav_F" class="nav">
+              <h3>F</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_H" class="nav">
+                <h3>H</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_L" class="nav">
+                <h3>L</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_N" class="nav">
+                <h3>N</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_P" class="nav">
+                <h3>P</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_Q" class="nav">
+                <h3>Q</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_S" class="nav">
+                <h3>S</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+            <div id="nav_X" class="nav">
+                <h3>X</h3>
+            </div>
+            <div class="recent corect clearfix">
+                <a class="first_p" href="">重庆</a>
+            </div>
+        </div>
+        <div class="wrap_right">
+          <a href="#nav_F">f</a>
+          <a href="#nav_H">h</a>
+          <a href="#nav_L">l</a>
+          <a href="#nav_N">n</a>
+          <a href="#nav_P">p</a>
+          <a href="#nav_Q">q</a>
+          <a href="#nav_S">s</a>
+          <a href="#nav_X">x</a>
+        </div>
+</body>
+<script>
+    $("header>img").click(function(){
+        location.href='index.html';
+    })
+</script>
+</html>

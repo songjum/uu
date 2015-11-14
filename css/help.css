@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+}
+body{
+	width: 100%;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+/*----head-----------*/
+#head{
+	background-color: #fd461e;
+	width: 100%;
+	height: 4.89rem;
+	text-align: center;
+}
+#head .return{
+	float: left;
+	margin-left: 1.67rem;
+	margin-top: 1.67rem;
+	width: 4.04rem;
+}
+#head p{
+	display: inline-block;
+	line-height: 4.89rem;
+	color: #fff;
+	font-size: 2.07rem;
+	font-weight: bold;
+}
+#head .address{
+	float: right;
+	margin-right: 1.67rem;
+}
+#head .address img{
+	float: left;
+	margin-top: 1.5rem;
+	width: 1.18rem;
+	height: 1.62rem;
+}
+#head .address a{
+	float: right;
+	font-size: 1.62rem;
+	margin-top: 1.5rem;
+	margin-left: 0.3rem;
+	color: #fff;
+}
+/*----wrap-----------*/
+#wrap{
+	background-color: #fafafa;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+	width: 40rem;
+	margin-bottom: 1px;
+}
+.mainer{
+	background-color: #fff;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+}
+.main_first,.main_second,.main_third,.main_fourth{
+	height: 4.7rem;
+}
+.main{
+	width: 95.75%;
+	margin-left: 4.25%;
+}
+.main p{
+	float: left;
+	color: #333333;
+	margin-left: 0.37rem;
+}
+.main a{
+	float: left;
+	color: #666666;
+	background-color:#fff;
+	width: 25.9rem;
+}
+.main_fourth a{
+	width: auto;
+}
+.main p,.main a{
+	font-size: 1.62rem;
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+}
+.main_fourth_right{
+	float: right;
+	width: 9.25rem;
+}
+.vertical{
+	width: 1px;
+	height: 3.33rem;
+	background-color: #ccc;
+	float: left;
+	margin-top: 0.7rem;
+}
+a.phone{
+	float: right;
+	margin-right: 3.5rem;
+	margin-top: 1.4rem;
+}
+img.phone{
+	width: 2rem;
+	height: 2rem;
+}
+.main .more{
+	float: right;
+	margin-right: 1.48rem;
+	margin-top: 1.4rem;
+	width: 0.87rem;
+}
+.qrcode_first{
+	display: block;
+	margin: 4.07rem auto;
+	margin-bottom: 0.74rem;
+	width: 20rem;
+}
+p.qrcode_second{
+	font-size: 1.4rem;
+	margin-bottom: 1.33rem;
+	display: inline-block;
+	color: #666666;
+}
+p.qrcode_third{
+	font-size: 1.62rem;
+	display: inline-block;
+	color: #fd461e;
+}
+a.qrcode_fourth{
+	font-size: 1.25rem;
+	color: #fcfafa;
+	background-color: #fd461e;
+	height: 4.27rem;
+	width: 26.67rem;
+	line-height: 4.27rem;
+	display: block;
+	margin: 0 auto;
+	border-radius: 0.67rem;
+}
+.qrcode_main{
+	text-align: center;
+	padding-bottom: 2.96rem;
+}
+.main_fourth p:nth-child(2){
+	color: #666;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+
+}
+body{
+    background-color: #fafafa;
+}
+div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.logo{
+    width: 40rem;
+}
+div.logo img
+{
+    display: block;
+    margin: 1.33rem auto;
+    width: 20rem;
+}
+div.content{
+    width: 36.44rem;
+    margin:3.70rem auto;
+}
+div.content>p{
+    font-size:1.4rem;
+    color: #666666;
+    margin-top:1.5rem;
+}
+div.content>p>span{
+    display: inline-block;
+    width: 2.3rem;
+}
+div.content>.p_head{
+    color: #fd461e; 
+    font-size: 1.56rem;
+}
+div.rule{
+    height: 2.67rem;
+    background-color: #eeeeee;
+}
+div.line_link{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link{
+    margin-left: 1.87rem;
+    height: 5rem;
+    border-bottom: 1px solid #cccccc;
+}
+div.line_link .link p{
+    font-size: 1.67rem;
+    float: left;
+    line-height: 5rem;
+}
+div.line_link .link .a{
+    margin-left: 0;
+    color: #666666;
+}
+div.line_link .link a{
+    color: #666666;
+    font-size: 1.67rem;
+    line-height: 5rem;
+    padding-right: 18.67rem;
+}
+div.line_link .link img{
+    width: 0.87rem;
+    float: right;
+    margin-top: 1.77rem;
+    margin-right: 1.67rem;
+    z-index: -1;
+}
+div.button{
+    margin-left: 3.93rem;
+}
+div.button input{
+    background-color: inherit;
+    border: none;
+    font-size: 1.56rem;
+    margin-left: 1rem;
+    padding-left: 2.5rem;
+    margin-top: 1.57rem;
+    margin-bottom: 1.57rem;
+    padding-right: 5.7rem;
+}
+div.button .telephone{
+    border-right: 1px solid #999999;
+    background-image: url("../img/free_phone.png");
+    background-repeat: no-repeat;
+    background-size: 1.89rem 1.56rem;
+}
+div.button .wechat{
+    background-image: url("../img/wechat.png");
+    background-repeat: no-repeat;
+    background-size: 1.89rem 1.56rem;
+    margin-left: 3rem;
+}

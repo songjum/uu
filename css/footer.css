@@ -1,0 +1,57 @@
+footer{
+    margin-top: -0.35rem;
+    height: 12.33rem;
+    color: #0e3f59;
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+footer>div>img{
+    width: 9.67rem;
+    margin-top: 2.6rem;
+    margin-left: 3.2rem;
+     
+}
+.foot_left{
+    float: left;
+    width:15.89rem;
+}
+.foot_left>p{
+    margin-left:3.2rem;
+    margin-top: 0.93rem;
+    font-size:1.6rem;
+}
+.foot_left>div{
+    width: 5px;
+    height: 6.66rem;
+    border-right: 1px solid #ccc;
+    float: right;
+    margin-top: 2.96rem;    
+}
+.foot_right{
+    width: 18.5rem;
+    float: left;
+    margin-left: 2.41rem;
+    margin-top: 2.22rem;
+    line-height: 1.6rem;
+}
+.foot_right .foot_phone{
+    font-size: 1.95rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+.foot_right .foot_time{
+    font-size: 1.19rem;
+    line-height: 2rem;
+}
+#foot_last{
+    font-size: 0.9rem;
+    display: block;
+    width: 17.5rem;
+}
+.foot_right b{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.foot_right .foot_b{
+    margin-left: 3.15rem;
+}
